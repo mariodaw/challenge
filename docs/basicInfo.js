@@ -1,5 +1,3 @@
-const index = require('./index.js')
-
 module.exports = {
     openapi:"3.0.3",
     info:{
