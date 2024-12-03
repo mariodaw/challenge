@@ -4,7 +4,8 @@ const ObjectId = mongoose.SchemaTypes.ObjectId;
 const TaskSchema = new mongoose.Schema({
     title: String,
     completed: Boolean,
-}, { timestamps: true });
+}, { timestamps: true })
+
 
 TaskSchema.index({ title: "text" });
 

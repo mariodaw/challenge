@@ -1,5 +1,4 @@
-const { JWT_SECRET } = require("../config/keys")
-const Task = require("../models/Tasks")
+const Task = require("../models/Task")
 
 const TaskController = {
     async create(req,res){
